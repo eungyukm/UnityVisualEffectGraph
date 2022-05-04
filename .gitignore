@@ -60,3 +60,5 @@ crashlytics-build.properties
 VisualEffectGraph/Library
 VisualEffectGraph/.vsconfig
 VisualEffectGraph/UserSettings
+VisualEffectGraph/Temp
+VisualEffectGraph/Logs
