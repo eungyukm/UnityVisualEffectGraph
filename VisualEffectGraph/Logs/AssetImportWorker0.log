@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.2/staging' branch; Version is '2021.2.17f1 (efb8f635e7b1) revision 15710454'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19041) 64bit Professional' Language: 'ko' Physical Memory: 65488 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.2.17f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ D:/06_RnD_Unity/UnityVisualEffectGraph/VisualEffectGraph
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49783
+58335
 Successfully changed project path to: D:/06_RnD_Unity/UnityVisualEffectGraph/VisualEffectGraph
 D:/06_RnD_Unity/UnityVisualEffectGraph/VisualEffectGraph
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,10 +47,10 @@ D:/06_RnD_Unity/UnityVisualEffectGraph/VisualEffectGraph
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/06_RnD_Unity/UnityVisualEffectGraph/VisualEffectGraph/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -60,95 +60,96 @@ Direct3D:
     VRAM:     8011 MB
     Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.107444 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015079 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 135.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
+- Completed reload, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1205ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (612ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (388ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (76ms)
+				InitializePlatformSupportModulesInManaged (53ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017548 seconds.
+Registered in 0.007609 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\06_RnD_Unity\UnityVisualEffectGraph\VisualEffectGraph\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\06_RnD_Unity\UnityVisualEffectGraph\VisualEffectGraph\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 94.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.875 seconds
+- Completed reload, in  1.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1876ms)
-		BeginReloadAssembly (257ms)
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (248ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1517ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1005ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (568ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (687ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5696 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.5 MB). Loaded Objects now: 6152.
-Memory consumption went from 222.1 MB to 220.6 MB.
-Total: 4.600000 ms (FindLiveObjects: 0.625000 ms CreateObjectMapping: 0.154100 ms MarkObjects: 3.347100 ms  DeleteObjects: 0.472900 ms)
+Unloading 5699 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.4 MB). Loaded Objects now: 6156.
+Memory consumption went from 221.5 MB to 220.0 MB.
+Total: 4.253300 ms (FindLiveObjects: 0.596200 ms CreateObjectMapping: 0.153200 ms MarkObjects: 3.047100 ms  DeleteObjects: 0.455700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,91 +163,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28099.200666 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6/OutputEvent Helpers/Runtime/Unity.VisualEffectGraph.OutputEventHandlers.asmdef
-  artifactKey: Guid(e4a4c15a54a852547bed6b95a433bdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6/OutputEvent Helpers/Runtime/Unity.VisualEffectGraph.OutputEventHandlers.asmdef using Guid(e4a4c15a54a852547bed6b95a433bdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cac7a872a285860e10b50bdd2dfd54') in 0.033216 seconds 
+  Time since last request: 9985.841229 seconds.
+  path: Assets/Scenes/VFXScene/Blood_Tutorial.unity
+  artifactKey: Guid(682d26d7eaf35d942a13607564b2f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFXScene/Blood_Tutorial.unity using Guid(682d26d7eaf35d942a13607564b2f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f0295d5c485bbcc87abb292bc26099') in 0.015689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.920313 seconds.
-  path: Assets/Samples/Visual Effect Graph
-  artifactKey: Guid(7841fdc310db84e45aca0e6dc6f60217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph using Guid(7841fdc310db84e45aca0e6dc6f60217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65035c87d972196425b87d94538dd28a') in 0.005364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.729755 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6
-  artifactKey: Guid(5062c9a809c884e41ba26ed0634aaea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6 using Guid(5062c9a809c884e41ba26ed0634aaea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823136489a952b3eca1f5e95aa30eceb') in 0.005649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.961169 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders
-  artifactKey: Guid(7b9d43e1b3e9c21428cd9014b3bcaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders using Guid(7b9d43e1b3e9c21428cd9014b3bcaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a0f6be31175f1c1fb1683bcc82b46') in 0.017637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.707054 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput
-  artifactKey: Guid(583eaa2cfe423c748ab7f758a692220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput using Guid(583eaa2cfe423c748ab7f758a692220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccc7df238ec689b34fb93dad392ac82') in 0.005707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042840 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput/Flipbook.shadergraph
-  artifactKey: Guid(1270f81d8f641ff4bbb827853efd6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput/Flipbook.shadergraph using Guid(1270f81d8f641ff4bbb827853efd6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1e1791d223584f26d9d04ceae6e5e') in 0.049809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput/SimpleParticle.shadergraph
-  artifactKey: Guid(3330fd1a5071e7e43ac2681511ab9646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Shaders/ParticleOutput/SimpleParticle.shadergraph using Guid(3330fd1a5071e7e43ac2681511ab9646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fbcb92e4b5ab85a9d85515bd764a84') in 0.011101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.628921 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e75bbda58e597ed465beb2f8333ca2') in 0.015163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063006 seconds.
-  path: Assets/Settings/UniversalRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc6a6cc79f7a052aa59fdd320aace1') in 0.006987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Settings/UniversalRP-LowQuality.asset
-  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ef21b78251f4289021dcd4e65c831') in 0.181392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.931228 seconds.
-  path: Assets/Models/VFX
-  artifactKey: Guid(67b53735145605146b906e450dae9332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/VFX using Guid(67b53735145605146b906e450dae9332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a197806b1d052d0d43ea3b820abb117') in 0.006001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024809 seconds.
-  path: Assets/Models/VFX/Smoke01.blend
-  artifactKey: Guid(bc699fd8726615549bd519b38f4b070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/VFX/Smoke01.blend using Guid(bc699fd8726615549bd519b38f4b070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca75e44d5167ebee90c7286cccfbf70') in 1.422959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.328107 seconds.
-  path: Assets/VFX/BloodShader.shadergraph
-  artifactKey: Guid(95455adb1c3a73142b93ccb481100174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/BloodShader.shadergraph using Guid(95455adb1c3a73142b93ccb481100174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd930e703d319650fa4350ec52113416f') in 0.006241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/VFX/StylizedSmoke.shadergraph
-  artifactKey: Guid(8881a78505a2cca49b4a663743b245f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/StylizedSmoke.shadergraph using Guid(8881a78505a2cca49b4a663743b245f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f8596318af5f983830f92e0e903245') in 0.006330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/VFX/StyleizedSmokeVFX.vfx
-  artifactKey: Guid(99eb95b55e2f82542b7cb9d43f954b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/StyleizedSmokeVFX.vfx using Guid(99eb95b55e2f82542b7cb9d43f954b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b7be79175e3bbc987f2a0aad9acda5') in 0.504523 seconds 
+  Time since last request: 2.801220 seconds.
+  path: Assets/Scenes/VFXScene/Smoke.unity
+  artifactKey: Guid(eea5ffca81262b047bb4b9b740497212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFXScene/Smoke.unity using Guid(eea5ffca81262b047bb4b9b740497212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffba5a9ebe6ec6d182cd90164c76604f') in 0.006188 seconds 
